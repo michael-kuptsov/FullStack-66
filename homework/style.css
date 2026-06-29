@@ -1,43 +1,49 @@
-body {
-    margin: 0 auto;
-    text-align: center;
-    background-image: url("https://sotni.ru/wp-content/uploads/2023/08/fon-eda-32.webp");
-    /*bgr дает нам то,чтоб картинка не повторялась при скролле,иначе будет каша и плохо отображаться */
-    background-repeat: no-repeat;
-    /*bgs покрываем все полотно сайта*/
-    background-size: cover;
-    /*bgp центрируем*/
-    background-position: center;
-    /*bga фиксируем чтоб не дергалась */
-    background-attachment: fixed;
-}
-
-.all_titles{
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(255, 248, 235, 0.85);
-    color: #1f1f1f;
-    border-radius: 15px;
-/*так же центрируем все чтоб было в центре */
-
-}
-.all_img{
-    text-align: center;
-    margin: 0 auto;
-}
-.all_img img{
+.container1 {
     display: block;
-    border-radius: 50%;
-    /*скругляю для красоты и выставляю размеры*/
     margin: 0 auto;
-    height: 300px;
-    width: 500px;
-}
-.main_p{
     text-align: center;
-    font-size: 20px;
-    background-color: rgba(255, 248, 235, 0.85);
-    color: #1f1f1f;
-    border-radius: 15px;
+}
 
+.container2 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.color {
+    display: inline-block;
+    margin: 0 auto 15px auto;
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+.container3 {
+    display: block;
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+.container4 {
+
+    display: block;
+    margin: -60px auto;
+    text-align: center;
+
+}
+
+.blue{
+    color: blue;
+}
+.black{
+    color: black;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
 }
