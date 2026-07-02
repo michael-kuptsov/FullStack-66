@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+
+.header, .footer {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+
+
+}
+.header {
+    background-color: violet;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*z-index: 10;*/
+
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.main{
+    background-color: crimson;
+    height: 1200px;
+    position: relative;
+
+
+}
+
+.main > div{
+    /*height: 100px;*/
+    /*width: 25%;*/
+    /*border: 10px solid black;*/
+    /*display: inline;*/
+    /*font-size: 50px;*/
+    /*margin: 0 -5px 0 -5px;*/
+    text-align: center;
+    height: 100px;
+    width: 51%;
+    display: inline-block;
+    font-size: 50px;
+
+
+}
+
+.div1 {
+    background-color: yellow;
+    /*position: fixed;*/
+    /*position: relative;*/
+    /*position: static; присваевается изначально к каждому блоку и на него не децствует позиционирование left right и тд*/
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    /*z-index: 100;*/
+    z-index: 500;
+}
+
+.div2 {
+    background-color: blue;
+    z-index: 200;
+    position: relative;
+}
+
+.div3 {
+    background-color: lightgreen;
+    z-index: 300;
+    position: relative;
+}
