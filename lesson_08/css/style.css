@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
+.Green {
+    color: darkgreen
+;
+}
+
+#p1 {
+    font-size: 40px;
+}
+
+.Big {
+    font-size: 50px;
+}
+
+.container h2 {
+    text-transform: uppercase;
+}
+
+#p1 + p {
+    font-weight: 900;
+}
+
+.container p {
+    border: 10px solid darkgreen;
+}
+
+.container > p {
+    border: 10px solid crimson;
+}
+
+.Big.Green {
+    background-color: cyan;
+}
