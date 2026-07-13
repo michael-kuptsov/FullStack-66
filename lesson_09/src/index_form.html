@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Form</title>
+</head>
+<body>
+<form action="#" method="get">
+
+    <fieldset id="form_group">
+
+        <legend>Personal Data</legend>
+
+        <p>
+            <label for="fName">First Name</label>
+            <input type="text" name="firstName" id="fName" placeholder="First Name" required>
+        </p>
+
+        <p>
+            <label>Last Name
+            <input type="text" name="lastName" placeholder="Last Name" required>
+            </label>
+        </p>
+        <legend>Personal Data</legend>
+    <fieldset id="form_group2">
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+
+        </p>
+        <p>
+            <label for="telephone">Telephone</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="Telephone" required>
+        </p>
+    </fieldset>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </p>
+
+        <p>
+            <label for="gender_m">Male</label>
+            <input type="radio" name="gender" id="gender_m" value="Male">
+
+
+
+            <label for="gender_f">Female</label>
+            <input type="radio" name="gender" id="gender_f" value="Female">
+        </p>
+
+        <p>
+            <label>Hobby:
+            <input type="checkbox" name="reading"  >
+            reading
+            </label>
+            <label>
+            <input type="checkbox" name="coding"  >
+            coding
+            </label>
+            <label>
+            <input type="checkbox" name="music"  >
+            music
+            </label>
+        </p>
+        <p>
+            <label for="lang">Language</label>
+            <select name="language" id="lang">
+                <option value="en">English</option>
+                <option value="french">French</option>
+                <option value="ar">Arabic</option>
+                <option value="he">Hebrew</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="birthday">
+        </p>
+        <p>
+            <label for="comment">Comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </p>
+    </fieldset>
+    <div class="buttons">
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+        <button type="button">Next</button>
+        <button type="button">Prev</button>
+        <button type = "button" onclick = "alert('Form submitted!')">Alert</button>
+    </div>
+
+</form>
+</body>
+</html>
